@@ -1,0 +1,32 @@
+.slider {
+  display: flex;
+  align-items: center;
+  max-width: 800px;
+  margin: 0 auto;
+  &__image-block {
+    width: 640px;
+    overflow: hidden;
+  }
+  &__slide-wrapper {
+    display: flex;
+  }
+  &__next-button {
+    background: url("./img/arrow-next.png");
+    &:hover {
+      transform: translateX(5px);
+    }
+  }
+  &__prev-button {
+    background: url("./img/arrow-prev.png");
+    &:hover {
+      transform: translateX(-5px);
+    }
+  }
+  &__control-button {
+    width: 32px;
+    height: 32px;
+    border: none;
+    outline: none;
+    transition: transform 0.3s;
+  }
+}

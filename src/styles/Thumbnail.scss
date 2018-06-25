@@ -1,0 +1,10 @@
+.thumbnail {
+  background: white;
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+  align-items: center;
+  &__text {
+    padding: 5px 0;
+  }
+}

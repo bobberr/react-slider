@@ -1,0 +1,17 @@
+.slide {
+  position: relative;
+  width: 640px;
+  &:hover > &__overlay {
+    opacity: 1;
+  }
+
+  &__overlay {
+    transition: opacity 0.3s;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    opacity: 0;
+    position: absolute;
+    bottom: 10px;
+  }
+}
